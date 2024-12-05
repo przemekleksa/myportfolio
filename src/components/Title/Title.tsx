@@ -4,18 +4,29 @@ import styles from './Title.module.scss';
 
 type Props = {
   children: ReactNode;
-  size: 'XL' | 'L' | 'M' | 'S' | 'XS';
+  size: 'xxxl' | 'xxl' | 'xl' | 'l' | 'm' | 's' | 'xs' | 'xxs' | 'xxxs';
+  font?: string;
+  fontWeight?: 'w400' | 'w600' | 'w700' | 'w900';
+  uppercase?: boolean;
+  fontBoW?: 'black' | 'white';
 };
 
-const Title = ({ size = 'M', children }: Props) => {
+const Title = ({
+  size = 'm',
+  children,
+  font,
+  fontWeight = 'w400',
+  uppercase,
+  fontBoW = 'white',
+}: Props) => {
   return (
     <div
       className={clsx(styles.rootTitle, {
-        [styles.xl]: size === 'XL',
-        [styles.l]: size === 'L',
-        [styles.m]: size === 'M',
-        [styles.s]: size === 'S',
-        [styles.xs]: size === 'XS',
+        [styles[size]]: size,
+        [styles.robotoCondensed]: font === 'robotoCondensed',
+        [styles[fontWeight]]: fontWeight,
+        [styles.uppercase]: uppercase,
+        [styles[fontBoW]]: fontBoW,
       })}
     >
       {children}

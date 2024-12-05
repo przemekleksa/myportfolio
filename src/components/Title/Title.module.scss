@@ -1,5 +1,13 @@
 .rootTitle {
-    font-family: Roboto-condensed, sans-serif;
+    // font-family: Roboto, sans-serif;
+}
+
+.xxxl {
+    font-size: 16rem;
+}
+
+.xxl {
+    font-size: 14rem;
 }
 
 .xl {
@@ -20,4 +28,44 @@
 
 .xs {
     font-size: 4rem;
+}
+
+.xxs {
+    font-size: 2rem;
+}
+
+.xxxs {
+    font-size: 1rem;
+}
+
+.robotoCondensed {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.w400 {
+    font-weight: 400;
+}
+
+.w600 {
+    font-weight: 600;
+}
+
+.w700 {
+    font-weight: 700;
+}
+
+.w900 {
+    font-weight: 900;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: #000000;
 }
