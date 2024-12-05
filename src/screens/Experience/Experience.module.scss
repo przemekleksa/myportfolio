@@ -1,0 +1,41 @@
+.rootExperience {
+    height: calc(80dvh + 48px);
+    width: calc(90dvw + 48px);
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 48px;
+    // border: 1px solid #000000;
+
+    header {
+        display: flex;
+        border-bottom: 1px solid #000000;
+        gap: 12px;
+
+        .summary {
+            border-left: 1px solid #000000;
+            padding: 0 0 12px 12px;
+            text-align: justify;
+        }
+    }
+
+    .experience {
+        display: flex;
+        height: 100%;
+
+        .imgContainer {
+            flex: 3;
+            padding: 12px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .expCards {
+            display: flex;
+            flex: 3;
+
+        }
+    }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "from": "11.2021",
+    "to": "Present",
+    "company": "Kitopi",
+    "title": "Frontend Developer",
+    "exp": "Developed and implemented user interfaces for web applications. Worked in a SCRUM team, participating in daily stand-ups and sprint planning. Optimized application performance and implemented best coding practices (DRY, code splitting, lazy loading, memoization). Collaborated with backend development teams to integrate with APIs. Organized quarterly integration meetings to enhance team cohesion. Traveled for business trips to identify and fix bugs in apps and strengthen team unity."
+  },
+  {
+    "from": "04.2021",
+    "to": "09.2021",
+    "company": "Kitopi",
+    "title": "Product Delivery Specialist",
+    "exp": "Administered Jira, creating automations, new projects, and configuring settings. Trained a colleague in Jira administration. Managed Jira functionalities delivery schedules. Led projects from conception to deployment, ensuring alignment with business and development requirements. Traveled for feedback collection, improving projects, automations, and workflows based on insights."
+  },
+  {
+    "from": "12.2020",
+    "to": "03.2021",
+    "company": "Kitopi",
+    "title": "Implementation Specialist",
+    "exp": "Supported IT and business teams, assigned accounts, and resolved software-related issues. Created Zapier scripts and integrated the company's system with external aggregators from multiple regions. Developed a JavaScript tool for integration between systems, reducing brand integration time from 10 minutes to 2 minutes. Provided technical support for internal and external software. Traveled to gain in-depth knowledge of external aggregators and their operations."
+  }
+]

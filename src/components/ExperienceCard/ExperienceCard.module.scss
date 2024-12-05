@@ -1,0 +1,50 @@
+.expCard {
+    border-left: 1px solid #000000;
+    flex: 1;
+    min-width: 300px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+
+        .details {
+            padding: 8px;
+
+            .dates {
+                display: flex;
+
+                span {
+                    padding: 0 2px;
+                }
+            }
+        }
+
+
+        .number {
+            border: 1px solid #000000;
+            margin: 12px;
+            min-width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            place-items: center;
+            font-size: 2rem;
+        }
+    }
+
+    .title {
+        display: flex;
+        place-items: center;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        padding: 8px 24px;
+        text-align: center;
+        min-height: 100px;
+    }
+
+    .experienceDetails {
+        padding: 8px;
+        font-size: 1.4rem;
+    }
+}

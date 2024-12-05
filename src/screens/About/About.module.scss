@@ -1,0 +1,65 @@
+.rootAbout {
+    height: 80dvh;
+    width: 90dvw;
+    display: flex;
+    // justify-content: center;
+    // place-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 48px;
+
+    .about {
+        display: flex;
+        // gap: 40px;
+        gap: 120px;
+
+        .imgContainer {
+            flex: 1;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .aboutText {
+            display: flex;
+            flex: 3;
+            // gap: 40px;
+            gap: 120px;
+
+
+            .pro {
+                flex: 1;
+
+
+                p {
+                    font-size: 24px;
+                    padding-bottom: 24px;
+                    font-weight: 300;
+
+                }
+            }
+
+            .priv {
+                flex: 1;
+
+                p {
+                    font-size: 24px;
+                    padding-bottom: 24px;
+                    font-weight: 300;
+                    // line-height: 32px;
+                    ;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 100%;
+        display: flex;
+        place-items: flex-end;
+    }
+
+
+}

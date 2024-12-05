@@ -1,0 +1,11 @@
+.root {
+    background: url('../../assets/images/cut.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80dvh;
+    width: 90dvw;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+}
