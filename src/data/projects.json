@@ -15,7 +15,9 @@
       "Vitest"
     ],
     "url": "",
-    "git": ""
+    "git": "",
+    "image": "/images/projects/kitopay.jpg",
+    "video": ""
   },
   {
     "name": "RightBite",
@@ -33,8 +35,10 @@
       "Sentry",
       "MUI"
     ],
-    "url": "",
-    "git": ""
+    "url": "https://rightbite.com/en-ae/home",
+    "git": "",
+    "image": "/images/projects/rightBite.jpg",
+    "video": ""
   },
   {
     "name": "SKOSWeb",
@@ -51,8 +55,10 @@
       "Vitest",
       "Material UI"
     ],
-    "url": "",
-    "git": ""
+    "url": "https://mixnmatch.ae/",
+    "git": "",
+    "image": "/images/projects/mnm.jpg",
+    "video": ""
   },
   {
     "name": "Kitopi Rewards",
@@ -61,8 +67,10 @@
     "subtitle": "Landing Page",
     "text": "A landing page displayed to customers who wanted to claim their cashback but did not have the Kitopi rewards mobile app.",
     "stack": ["React", "TypeScript", "SCSS"],
-    "url": "",
-    "git": ""
+    "url": "https://www.kitopirewards.com/",
+    "git": "",
+    "image": "/images/projects/kitopiRewards.jpg",
+    "video": ""
   },
   {
     "name": "Brand LP",
@@ -71,17 +79,21 @@
     "subtitle": "Landing Page",
     "text": "A landing page designed to redirect customers of a brand transitioning from a web platform to a mobile app. It essentially serves as an advertisement for the app.",
     "stack": ["React", "TypeScript", "SCSS"],
-    "url": "",
-    "git": ""
+    "url": "https://yawmi.kitopiconnect.com/",
+    "git": "",
+    "image": "/images/projects/LP.jpg",
+    "video": ""
   },
   {
     "name": "Burger Heaven",
     "from": "09.2024",
     "to": "10.2024",
     "subtitle": "Burger Joint Landing Page",
-    "text": "A place to check out the menu, book a table",
+    "text": "A responsive and visually engaging web application designed for a burger restaurant. The site provides a seamless user experience for browsing the menu, reading testimonials, and making table reservations.",
     "stack": ["React", "TypeScript", "i18t"],
     "url": "",
-    "git": ""
+    "git": "https://github.com/przemekleksa/burgerheaven",
+    "image": "/images/projects/bh.jpg",
+    "video": ""
   }
 ]

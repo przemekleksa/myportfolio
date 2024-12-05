@@ -1,0 +1,20 @@
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000000 !important;
+    transition: color 0.3s ease !important;
+
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #555555 !important;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0;
+    background-color: black !important;
+    width: 60px !important;
+    height: 2px !important;
+
+}

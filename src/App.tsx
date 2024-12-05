@@ -10,17 +10,30 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import About from './screens/About/About';
 import Experience from './screens/Experience/Experience';
 import Projects from './screens/Projects/Projects';
 
 function App() {
-  const [view, setView] = useState(1);
+  const getLS = () => {
+    return Number(localStorage.getItem('currentView'));
+  };
+
+  const [view, setView] = useState(getLS() | 1);
+
+  const setLS = (where: number) => {
+    localStorage.setItem('currentView', where.toString());
+  };
 
   const handleClick = (where: number) => {
     setView(where);
   };
+
+  useEffect(() => {
+    console.log(view);
+    setLS(view);
+  }, [view]);
 
   const getView = () => {
     if (view === 1) {

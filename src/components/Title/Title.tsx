@@ -9,6 +9,7 @@ type Props = {
   fontWeight?: 'w400' | 'w600' | 'w700' | 'w900';
   uppercase?: boolean;
   fontBoW?: 'black' | 'white';
+  lineHeight?: string;
 };
 
 const Title = ({
@@ -18,6 +19,7 @@ const Title = ({
   fontWeight = 'w400',
   uppercase,
   fontBoW = 'white',
+  lineHeight,
 }: Props) => {
   return (
     <div
@@ -27,7 +29,9 @@ const Title = ({
         [styles[fontWeight]]: fontWeight,
         [styles.uppercase]: uppercase,
         [styles[fontBoW]]: fontBoW,
+        // [styles[lineHeight!]]: lineHeight !== undefined,
       })}
+      style={{ lineHeight: `${lineHeight}` }}
     >
       {children}
     </div>
